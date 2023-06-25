@@ -1,0 +1,162 @@
+
+#navBar{
+    background: #ED5D5D;
+    font-size: 50px;
+    color: white;
+    height: 150px;
+
+}
+
+.divTitulo{
+    left: 20px;
+    margin-left: 20px;
+    font-size: 50px;
+    color: white;
+    margin-bottom: 20px;
+
+}
+
+#titulo{
+    font-size: 50px;
+    color: white;
+
+}
+
+#corItens{
+    color: white;
+    font-size: 20px;
+}
+
+#pesquisar{
+    margin-left: 385px;
+    margin-top: 20px;
+    width: 200em;
+    border-radius: 16px;
+
+
+}
+
+#barra-pesquisar{
+    height: 30px;
+    width: 300px;
+}
+
+.card{
+    margin-left: 50px;
+    width: 700px;
+    height: 1000px;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+    right: 0%;
+    bottom: 0%;
+    background-color: #ED5D5D;
+    font-family: "Poppins";
+
+
+
+}
+
+.modalView{
+
+    display: flex;
+    justify-content: center;
+}
+
+#filtroTag{
+    font-size: 5px;
+    color: blue;
+}
+
+.info{
+    font-size: 10px;
+    color: #ED5D5D;
+    font-family: "Poppins";
+}
+
+.filters{
+    left: 100px;
+    display: flex;
+    font-size: 10px;
+    padding-right: 20px;
+    font-family: "Poppins";
+    justify-content: space-between;
+}
+
+.BOX-HORARIOS{
+
+    top: 20px;
+    background-color: background;
+}
+
+
+.checkBox{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    margin-top: 5px;
+    padding: 20px;
+
+}
+
+.contents{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.title-modal{
+    font-size: 20px;
+    justify-content: center;
+}
+
+
+#font-card-title{
+    font-family: "Poppins";
+    text-align: center;
+
+}
+
+.font-card-subtitle{
+    font-size: 12px;
+}
+
+.font-card-endreco{
+    font-size: 18px;
+}
+
+
+#icon-location{
+    margin-right: 5px;
+    color: #ED5D5D;
+}
+
+
+#bairro{
+    color: black;
+    text-decoration: none;
+}
+
+
+
+@media screen and (max-width: 2000px) {
+
+    #pesquisar{
+        margin-left: 200px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 100em;
+        border-radius: 16px;
+
+
+    }
+
+    .font-card-endreco{
+        font-size: 18px;
+    }
+
+
+}

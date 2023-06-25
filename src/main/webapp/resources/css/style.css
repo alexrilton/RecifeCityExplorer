@@ -1,0 +1,293 @@
+body{
+    width: 800px;
+}
+
+.sidebar{
+    background: #ED5D5D;
+    position: absolute;
+    left: 0;
+    width: 800px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content:center;
+ 
+}
+
+.nameSite{
+    position: absolute;
+    width: 279px;
+    height: 84px;
+    left: 250px;
+    top: 200px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 42px;
+   
+
+    color: #FEFEFE;
+
+    
+}
+
+
+
+
+
+.bemVindo{
+    position: absolute;
+    width: 500px;
+    height: 84px;
+    left: 200px;
+
+    top: 480px;
+
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 80px;
+    align-items: flex-start;
+    text-align: start;
+    justify-content:flex-start;
+    color: #FFFFFF;
+
+}
+
+.text{
+    position: absolute;
+    width: 228px;
+    height: 42px;
+    left: 200px;
+    top: 700px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 21px;
+    align-items: flex-start;
+    text-align: start;
+    justify-content:flex-start;
+    color: #FFFFFF;
+
+}
+
+
+.buttonEntrar{
+    position: absolute;
+    width: 170px;
+    height: 60px;
+    top: 850px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 21px;
+    display: flex;
+
+    border: 2px solid #FFFFFF;
+    border-radius: 30px;
+    border-color: white;
+    color: white;
+    background-color: transparent;
+
+
+    left: 250px;
+
+}
+
+.container-img{
+    top: 300px;
+    width: 20px;
+    height: 100px;
+
+    
+}
+
+
+.img{
+    margin-top:20px;
+    margin-left: 1000px;
+    width: 450px;
+    height: 350px;
+    border-radius: 16px;
+
+}
+.img2{
+    margin-top:20px;
+    margin-left: 1540px;
+
+    width: 450px;
+    height: 350px;
+    border-radius: 16px;
+
+}
+
+.img3{
+    margin-top:100px;
+    margin-left: 1000px;
+    display: flex;
+    position: absolute;
+    width: 1100px;
+    height: 400px;
+    border-radius: 16px;
+
+}
+
+
+
+
+@media screen and (max-width: 2000px) and (max-height: 1080px) {
+    
+    body{
+        height:200px;
+    }
+    
+    .sidebar{
+        width: 400px;
+  
+    }
+    
+    .nameSite{
+        width:  279px;
+        height: 42px;
+        left: 50px;
+        top: 100px;
+        font-size: 25px;
+        line-height: 21px;
+        align-items: center;
+        text-align: center;
+        justify-content:center;
+    }
+    
+    .bemVindo{
+        width: 250px;
+        height: 42px;
+        left: 70px;
+        top: 200px;
+        font-size: 50px;
+        line-height: 80px;
+        align-items: center;
+        text-align: center;
+        justify-content:center;
+    }
+    
+    .text{
+        width: 228px;
+        height: 42px;
+        left: 100px;
+        top: 500px;
+
+    }
+    
+    .buttonEntrar{
+        width: 170px;
+       
+        top: 700px;
+        font-size: 20px;
+        line-height: 21px;
+        align-items: center;
+        text-align: center;
+        justify-content:center;
+        left: 120px;
+    }
+    
+    .box{
+        display: flex;
+        flex-direction: column;
+       
+    }
+    
+    
+    .img{
+    margin-top:20px;
+    margin-left: 500px;
+    width: 400px;
+    height: 250px;
+    
+    justify-content: center;
+    border-radius: 16px;
+
+}
+    .img2{
+    margin-top:20px;
+    margin-left: 1100px;
+    width: 400px;
+    height: 250px;
+    border-radius: 16px;
+
+}
+
+.img3{
+    margin-top:100px;
+    margin-left: 500px;
+    display: flex;
+    
+    position: absolute;
+    width: 1080px;
+    height: 400px;
+    border-radius: 16px;
+
+    }
+}
+
+
+@media screen and (max-width: 500px) {
+    .sidebar {
+        width: 400px;
+        height: 1000px;
+        
+        
+    }
+    
+@media screen and (max-width: 1300px) and (max-height: 874px) {
+    .sidebar {
+        width: 50px;
+        height: 100px;
+    }
+    
+    .img{
+    margin-top:20px;
+    margin-left: 300px;
+    width: 50px;
+    height: 50px;
+    border-radius: 16px;
+
+}
+    .img2{
+    margin-top:20px;
+    margin-left: 1100px;
+    width: 400px;
+    height: 250px;
+    border-radius: 16px;
+
+}
+
+.img3{
+    margin-top:100px;
+    margin-left: 500px;
+    display: flex;
+    width: 80px;
+    height: 100px;
+    border-radius: 16px;
+
+    }
+}
+
+    
+    
+    
+    
+ 
+    
+    
+
+
+
+} 

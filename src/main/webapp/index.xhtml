@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:b="http://bootsfaces.net/ui"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+    <h:head>
+        <!--Owl css-->
+
+        <h:outputScript library="js" name="js/owl/jquery.min.js"/> 
+        <h:outputScript library="js" name="js/owl/owl.carousel.min.js"/> 
+        <h:outputScript library="js" name="js/script.js"/> 
+        <h:outputStylesheet name="css/owl/owl.carousel.css"/>
+        <h:outputStylesheet name="css/owl/owl.theme.default.min.css"/>
+        <h:outputStylesheet name="css/style.css"/>
+        <title>Inicio Projeto</title>
+    </h:head>
+    <h:body>
+        <b:container fluid="true" id="container" style-class="sidebar">
+            <h:outputText id="container" styleClass="nameSite" value="Recife City Explorer"></h:outputText>
+            <b:container styleClass="box-bemVindo">
+                <h:outputText styleClass="bemVindo" value="Bem Vindo ao Site"></h:outputText>
+            </b:container>
+            <b:container styleClass="box-bemVindo">
+                <h:outputText styleClass="bemVindo" value="Bem Vindo ao Site"></h:outputText>
+            </b:container>
+            <b:container></b:container><h:inputSecret styleClass="password"></h:inputSecret>
+            <h:inputSecret styleClass="password"></h:inputSecret>
+            <h:commandButton value="Entrar" styleClass="buttonEntrar"  onclick="window.location.href = 'principalPage.xhtml'"></h:commandButton>
+            <h:outputText styleClass="text" value="Acesse o site para encontrar pontos turísticos!"></h:outputText>
+        </b:container>
+        <b:panelGrid columns="2" col-lg="2" col-md="1" col-sm="1" colLg="2" col-xs="1" colMd="1" colSm="1">
+            <h:graphicImage class=".img-fluid" name="img/marcozero.jpg" styleClass="img"></h:graphicImage>
+            <h:graphicImage class=".img-fluid" name="img/jardim.jpg" styleClass="img2"></h:graphicImage>
+        </b:panelGrid>
+        <b:panelGrid columns="1" >
+            <h:graphicImage name="img/map.png" styleClass="img3"></h:graphicImage>
+        </b:panelGrid>
+
+
+
+    </h:body>
+</html>
+
